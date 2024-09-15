@@ -1,0 +1,90 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    z-index: 1000;
+    padding: 10px;
+  }
+  
+  .menuButton {
+    font-size: 30px;
+    cursor: pointer;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay.show {
+    width: 100%;
+  }
+  
+  .overlayContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .overlayContent a {
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 20px 0;
+  }
+  
+  .overlayContent a:hover {
+    color: #007bff;
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+  }
+  /* src/styles/Navbar.module.css */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .navbar li {
+    display: inline;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .navbar a:hover {
+    color: #007bff;
+  }
+  

@@ -1,0 +1,45 @@
+/* src/styles/Home.module.css */
+.home {
+    padding: 100px 20px;
+    text-align: center;
+  }
+  
+  .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hero h1 {
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 700;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #6c757d;
+  }
+  
+  .sections {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .section {
+    width: 30%;
+  }
+  
+  .section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .section p {
+    font-size: 1.2rem;
+    color: #6c757d;
+  }
+  

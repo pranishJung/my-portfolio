@@ -1,0 +1,15 @@
+.clock {
+    position: fixed;
+    top: 70px; /* Adjust this value based on the height of your navigation bar */
+    right: 20px; /* Adjust this value for horizontal spacing from the right */
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    z-index: 1000; /* Ensure it is on top of other content */
+  }
+  

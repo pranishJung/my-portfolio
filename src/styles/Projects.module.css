@@ -1,0 +1,28 @@
+.projectsContainer {
+    padding: 2rem;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .projectList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .projectCard {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+  }
+  
+  h3 {
+    font-size: 1.5rem;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
